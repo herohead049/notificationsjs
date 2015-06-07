@@ -3,7 +3,7 @@ var when = require('when');
 var Promise =  require('bluebird');
 
 
-var cdlib = require('../cd_lib/cd_lib');
+var cdlib = require('../cd_lib');
 
 var rabbitMQ = {
     server: cdlib.getRabbitMQAddress(),
